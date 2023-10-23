@@ -59,7 +59,7 @@ jobs:
         run: pnpm install
 
       - name: Install fragment
-        run: pnpm install -g fragment
+        run: pnpm install -g fragment-tools
 
       - name: Build
         run: pnpm build
