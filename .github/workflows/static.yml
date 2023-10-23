@@ -58,18 +58,21 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install fragment
+        run: pnpm install -g fragment
+
       - name: Build
         run: pnpm build
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: './dist'
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
