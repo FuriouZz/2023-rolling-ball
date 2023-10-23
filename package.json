@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx fragment ./index.ts --build --outDir dist"
+    "build": "npx fragment ./index.ts --build --outDir dist --emptyOutDir"
   },
   "dependencies": {
     "three": "^0.157.0"
