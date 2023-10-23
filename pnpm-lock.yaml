@@ -13,6 +13,9 @@ devDependencies:
   '@types/three':
     specifier: ^0.157.2
     version: 0.157.2
+  fragment:
+    specifier: ^0.3.0
+    version: 0.3.0
   vite:
     specifier: ^4.5.0
     version: 4.5.0
@@ -266,6 +269,10 @@ packages:
 
   /fflate@0.6.10:
     resolution: {integrity: sha512-IQrh3lEPM93wVCEczc9SaAOvkmcoQn/G8Bo1e8ZPlY3X3bnAxWaBdvTdvM1hP62iZp0BXWDy4vTAy4fF0+Dlpg==}
+    dev: true
+
+  /fragment@0.3.0:
+    resolution: {integrity: sha512-7QtQrT2Cp/uOFGj13ipmwJivPcpzvJdWoStc7NYE2PXEdTbVe4Cyye+iTZA18g8vL9EWNDNJZzqGkm/6qMuoOg==}
     dev: true
 
   /fsevents@2.3.3:
